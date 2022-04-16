@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    text-align: center;
+    padding-top:200px;
+}
+
+.container h1{
+    font-size: 34px;
+    font-weight: 800;
+}
+
+a {
+    font-size: 34px;
+    font-weight: 800;
+    text-decoration: none;
+    color: azure;
+}
+
+a:hover {
+    color: green;
+
+}
+
+.container h1 span{
+    color: green;
+}
+.main-wrap p{
+    font-size: 21px;
+}
+
+.main-wrap input{
+    padding: 12px 24px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+
+.main-wrap button{
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+
+    font-size: 14px;
+    font-weight: 800;
+    background-color: white;
+    color: black;
+}
+
+.main-wrap button:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+
+@media (max-width:768px) {
+    .main-wrap input{
+        display: inline;
+        width: 80%;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
