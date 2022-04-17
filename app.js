@@ -4,7 +4,7 @@ const ejs = require("ejs");
 const mongoose = require("mongoose");
 
 
-mongoose.connect("mongodb+srv://admin-fahad:fahad@cluster0.gbtr5.mongodb.net/urlchecker");
+
 
 
 
