@@ -27,6 +27,10 @@ a:hover {
 .container h1 span{
     color: green;
 }
+
+.container h1 .reds{
+    color: red;
+}
 .main-wrap p{
     font-size: 21px;
 }
